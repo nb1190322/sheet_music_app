@@ -12,4 +12,6 @@
     <string name="wind_ensemble">Wind Ensemble</string>
     <string name="director">Director</string>
     <string name="rehearsal_active">Rehearsal Active</string>
+    <string name="description_genre">Description / Genre</string>
+    <string name="band_name">Band Name</string>
 </resources>

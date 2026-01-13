@@ -1,5 +1,6 @@
 package com.nb1190322.gmina.ui.activities
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -25,6 +26,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setupBandRecycler()
+        setupUIButtons()
     }
 
     private fun setupBandRecycler()
@@ -33,6 +35,13 @@ class HomeActivity : AppCompatActivity() {
         binding.recyclerBands.apply {
             layoutManager = LinearLayoutManager(this@HomeActivity)
             this.adapter = bandAdapter
+        }
+    }
+
+    private fun setupUIButtons() {
+        binding.btnCreateBand.setOnClickListener {
+            val intent = Intent(this, CreateBandActivity::class.java)
+            startActivity(intent)
         }
     }
 }
