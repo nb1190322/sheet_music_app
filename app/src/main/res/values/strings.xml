@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">g-mina</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="g_mina">G-MINA</string>
+    <string name="my_bands">My Bands</string>
+    <string name="create_band">Create Band</string>
+    <string name="join_band">Join Band</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="practice_mode">Practice Mode</string>
+    <string name="my_music_library">My Music Library</string>
+    <string name="wind_ensemble">Wind Ensemble</string>
+    <string name="director">Director</string>
+    <string name="rehearsal_active">Rehearsal Active</string>
+    <string name="description_genre">Description / Genre</string>
+    <string name="band_name">Band Name</string>
 </resources>
